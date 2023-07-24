@@ -1,0 +1,41 @@
+{
+    
+    
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "managedByName": {
+            "value": "Jungle IT Azure Lighthouse"
+        },
+        "managedByDescription": {
+            "value": "Jungle IT Azure Lighthouse Management"
+        },
+        "managedByTenantId": {
+            "value": "008e4efb-940b-4452-a720-a81a07b9874e"
+        },
+        "managedByAuthorizations": {
+            "value": [
+                { 
+                    "principalId": "fdbef1bf-ed51-4a4a-8128-97a0f80c6db0", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Jungle IT - Contributor Role" 
+                }, 
+				 { 
+                    "principalId": "fdbef1bf-ed51-4a4a-8128-97a0f80c6db0", 
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                    "principalIdDisplayName": "Jungle IT - Contributor Role"
+                },
+                { 
+                    "principalId": "2c078ff2-ff1c-42ab-870b-21118a40a263", 
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "principalIdDisplayName": "Jungle IT - Reader Role"
+                },
+				  { 
+                    "principalId": "2c078ff2-ff1c-42ab-870b-21118a40a263", 
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                    "principalIdDisplayName": "Jungle IT - Reader Role"   
+                }
+				]
+                }
+                }                
+        }
